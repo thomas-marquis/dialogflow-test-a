@@ -1,0 +1,9 @@
+{
+  "name": "sample-http",
+  "version": "0.0.1",
+  "scripts": {
+    "deploy": "gcloud beta functions deploy helloWorld --trigger-http",
+    "config:list": "gcloud config configurations list",
+    "config:change": "gcloud config configurations activate a"
+  }
+}
